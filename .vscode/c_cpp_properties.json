@@ -1,0 +1,34 @@
+{
+    "configurations": [
+        {
+            "name": "GCC",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "${workspaceFolder}/app",
+                "${workspaceFolder}/drivers/inc",
+                "${workspaceFolder}/rtos/",
+                "${workspaceFolder}/rtos/FreeRTOS-Kernel/include",
+                "${workspaceFolder}/rtos/FreeRTOS-Kernel/portable/GCC/ARM_CM3",
+                "${workspaceFolder}/libraries/STM32F2xx_StdPeriph_Driver/inc",
+                "${workspaceFolder}/system",
+                "${workspaceFolder}/system/include",
+                "/opt/gcc-arm-none-eabi-9-2020-q2-update/lib/gcc/arm-none-eabi/9.3.1/include",
+                "/opt/gcc-arm-none-eabi-9-2020-q2-update/lib/gcc/arm-none-eabi/9.3.1/include-fixed",
+                "/opt/gcc-arm-none-eabi-9-2020-q2-update/arm-none-eabi/lib",
+                "/opt/gcc-arm-none-eabi-9-2020-q2-update/arm-none-eabi/include",
+                "/opt/gcc-arm-none-eabi-9-2020-q2-update/arm-none-eabi/include/ssp",
+                "/opt/gcc-arm-none-eabi-9-2020-q2-update/arm-none-eabi/include/sys",
+                "/opt/gcc-arm-none-eabi-9-2020-q2-update/arm-none-eabi/include/c++/9.3.1"
+            ],
+            "defines": [
+                "USE_STDPERIPH_DRIVER",
+                "__GNUC__"
+            ],
+            "compilerPath": "/opt/gcc-arm-none-eabi-9-2020-q2-update/bin/arm-none-eabi-gcc",
+            "cStandard": "c11",
+            "cppStandard": "c++17",
+            "intelliSenseMode": "gcc-x64"
+        }
+    ],
+    "version": 4
+}
