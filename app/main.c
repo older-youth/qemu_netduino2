@@ -38,6 +38,7 @@
 // #include "FreeRTOS.h"
 // #include "task.h"
 
+uint32_t test = 0;
 // TaskHandle_t Task1_Handle, Task2_Handle;
 
 // void task1_task()
@@ -135,6 +136,8 @@ int main(void)
     /* Infinite loop */
     while (1)
     {
+        test++;
+        printf("test:%ld", test);
         // WatchDogFeed();
         // TimerProcess();//定时器扫描
         
